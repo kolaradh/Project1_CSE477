@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<score bpm="120" beatspermeasure="4">
+  <instrument instrument="ToneInstrument">
+    <note measure="1" beat="1" duration="1" note="A4"/>
+    <note measure="2" beat="1" duration="1" note="C5"/>
+    <note measure="3" beat="1" duration="1" note="E5"/>
+    <note measure="4" beat="1" duration="1" note="A5"/>
+  </instrument>
+
+  <instrument instrument="WavetableInstrument">
+    <note measure="1" beat="1" duration="0.5" note="A3"/>
+    <note measure="1" beat="3" duration="0.5" note="E3"/>
+    <note measure="2" beat="1" duration="0.5" note="D3"/>
+    <note measure="2" beat="3" duration="0.5" note="G3"/>
+  </instrument>
+</score>

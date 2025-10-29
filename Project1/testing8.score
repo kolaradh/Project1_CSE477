@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<score bpm="120" beatspermeasure="4">
+  <instrument instrument="WavetableInstrument">
+    <note measure="1" beat="1" duration="2" note="A4"/>
+    <note measure="3" beat="1" duration="2" note="C5"/>
+  </instrument>
+</score>

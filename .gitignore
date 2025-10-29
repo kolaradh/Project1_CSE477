@@ -1,0 +1,20 @@
+# Build and temp files
+Debug/
+Release/
+ipch/
+.vs/
+*.obj
+*.exe
+*.pdb
+*.idb
+*.log
+*.user
+*.suo
+*.VC.db
+*.aps
+*.cache
+*.tlog
+*.ilk
+*.db
+*.wav
+*.mp3
