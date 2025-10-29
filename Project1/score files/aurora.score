@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<score bpm="120" beatspermeasure="4">
+
+	<!-- SA RE GA MA PA DA NI SA Intro -->
+	<instrument instrument="WavetableInstrument">
+		<note measure="1" beat="1" duration="1" note="C4" vel="0.8" crossfade="0.2"/>
+		<note measure="1" beat="2" duration="1" note="D4" vel="0.9" crossfade="0.25"/>
+		<note measure="1" beat="3" duration="1" note="E4" vel="0.9" crossfade="0.3"/>
+		<note measure="2" beat="1" duration="1" note="F4" vel="1.0" crossfade="0.35"/>
+		<note measure="2" beat="2" duration="1" note="G4" vel="1.0" crossfade="0.4"/>
+		<note measure="2" beat="3" duration="1" note="A4" vel="0.9" crossfade="0.45"/>
+		<note measure="3" beat="1" duration="2" note="B4" vel="1.0" crossfade="0.5"/>
+		<note measure="3" beat="3" duration="2" note="C5" vel="1.0" crossfade="0.55"/>
+	</instrument>
+
+	<!-- Layered Pad Harmony -->
+	<instrument instrument="WavetableInstrument">
+		<note measure="4" beat="1" duration="4" note="C4" vel="0.5" crossfade="0.3"/>
+		<note measure="4" beat="1" duration="4" note="E4" vel="0.5" crossfade="0.35"/>
+		<note measure="4" beat="1" duration="4" note="G4" vel="0.5" crossfade="0.4"/>
+	</instrument>
+
+	<!-- Melodic Development -->
+	<instrument instrument="WavetableInstrument">
+		<note measure="5" beat="1" duration="1" note="E4" vel="1.0" crossfade="0.5"/>
+		<note measure="5" beat="2" duration="1" note="G4" vel="0.9" crossfade="0.55"/>
+		<note measure="5" beat="3" duration="1" note="A4" vel="0.9" crossfade="0.6"/>
+		<note measure="6" beat="1" duration="1" note="B4" vel="1.0" crossfade="0.6"/>
+		<note measure="6" beat="2" duration="2" note="C5" vel="1.0" crossfade="0.7"/>
+		<note measure="7" beat="1" duration="1" note="E4" vel="0.9" crossfade="0.4"/>
+		<note measure="7" beat="2" duration="1" note="A4" vel="1.0" crossfade="0.6"/>
+		<note measure="8" beat="1" duration="2" note="B4" vel="1.0" crossfade="0.7"/>
+	</instrument>
+
+	<!-- Expressive Gliss Section -->
+	<instrument instrument="WavetableInstrument">
+		<note measure="9" beat="1" duration="2" note="C5" vel="1.0" crossfade="0.4" gliss="67" glisstime="0.8"/>
+		<note measure="10" beat="1" duration="2" note="E5" vel="0.9" crossfade="0.5" gliss="72" glisstime="0.8"/>
+		<note measure="11" beat="1" duration="3" note="G5" vel="1.0" crossfade="0.6"/>
+	</instrument>
+
+	<!-- Bridge Pad (Ambient Fill) -->
+	<instrument instrument="WavetableInstrument">
+		<note measure="12" beat="1" duration="4" note="D4" vel="0.6" crossfade="0.25"/>
+		<note measure="12" beat="3" duration="4" note="F4" vel="0.6" crossfade="0.3"/>
+		<note measure="13" beat="1" duration="4" note="A3" vel="0.5" crossfade="0.35"/>
+	</instrument>
+
+	<!-- Outro & Resolution -->
+	<instrument instrument="WavetableInstrument">
+		<note measure="14" beat="1" duration="4" note="C4" vel="0.4" crossfade="0.3"/>
+		<note measure="15" beat="3" duration="4" note="G3" vel="0.3" crossfade="0.25"/>
+	</instrument>
+
+</score>

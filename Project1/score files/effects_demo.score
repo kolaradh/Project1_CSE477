@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<score bpm="100" beatspermeasure="4">
+
+	<instrument instrument="WavetableInstrument">
+
+		<!-- Clean base tone -->
+		<note measure="1" beat="1" duration="2" note="A4" crossfade="0.0" vel="0.9" pan="0.2"/>
+
+		<!-- Crossfade demonstration -->
+		<note measure="3" beat="1" duration="2" note="C5" crossfade="0.5" vel="0.9" pan="0.4"/>
+
+		<!-- Glissando up for dynamic effect tail -->
+		<note measure="5" beat="1" duration="3" note="B4" crossfade="1.0" vel="0.9"
+			  gliss="76" glisstime="1.0" pan="0.6"/>
+
+		<!-- Echo-friendly sustained closing tone -->
+		<note measure="8" beat="1" duration="3" note="D5" crossfade="0.3" vel="0.9" pan="0.5"/>
+
+	</instrument>
+
+	<!-- Delay/Feedback Effect Section -->
+	<effects type="Delay">
+		<wet>0.45</wet>
+		<!-- Wet signal intensity -->
+		<feedback>0.25</feedback>
+		<!-- Echo persistence -->
+		<mix>0.4</mix>
+		<!-- Overall wet/dry balance -->
+	</effects>
+
+</score>

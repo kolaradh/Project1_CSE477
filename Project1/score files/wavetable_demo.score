@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<score bpm="120" beatspermeasure="4">
+
+	<instrument instrument="WavetableInstrument">
+
+		<!-- Section 1: Table A (saw + sine) bright tone -->
+		<note measure="1" beat="1" duration="2" note="A4" crossfade="0.0" vel="1.0" pan="0.2"/>
+		<note measure="1" beat="3" duration="2" note="C5" crossfade="0.0" vel="1.0" pan="0.3"/>
+
+		<!-- Section 2: Mid crossfade (morphs between tables) -->
+		<note measure="3" beat="1" duration="2" note="E5" crossfade="0.5" vel="1.0" pan="0.4"/>
+		<note measure="3" beat="3" duration="2" note="G5" crossfade="0.5" vel="1.0" pan="0.5"/>
+
+		<!-- Section 3: Full Table B (square + saw) + glissando upward -->
+		<note measure="5" beat="1" duration="3" note="B4" crossfade="1.0" vel="1.0"
+			  gliss="76" glisstime="1.0" pan="0.7"/>
+
+		<!-- Section 4: Return toward Table A + gentle glide down -->
+		<note measure="8" beat="1" duration="3" note="E5" crossfade="0.3" vel="1.0"
+			  gliss="64" glisstime="0.5" pan="0.4"/>
+
+	</instrument>
+</score>
