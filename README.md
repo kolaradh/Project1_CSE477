@@ -133,7 +133,8 @@ Michigan State University
 ## 🧠 Acknowledgements  
 - CSE 471 course staff and Professor Yiying Tong for the framework  
 - MSXML2 library for XML parsing  
-- Audacity and Visual Studio for waveform and playback testing  
+- Audacity and Visual Studio for waveform and playback testing
+- Used OpenAI to generate README file and the ~1 min long playback
 
 ---
 
