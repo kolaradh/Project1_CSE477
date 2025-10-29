@@ -1,6 +1,6 @@
 # 🎵 Project 1 — Wavetable Synthesizer  
 **Author:** Adhvik Kunal Kolar  
-**Course:** CSE 477 — Web and Audio Application Development  
+**Course:** CSE 471 
 **Institution:** Michigan State University  
 
 ---
