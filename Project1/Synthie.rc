@@ -281,12 +281,12 @@ END
 
 STRINGTABLE
 BEGIN
-    IDR_MAINFRAME           "Synthie"
+    IDR_MAINFRAME           "Project1"
 END
 
 STRINGTABLE
 BEGIN
-    AFX_IDS_APP_TITLE       "Synthie"
+    AFX_IDS_APP_TITLE       "Project1"
     AFX_IDS_IDLEMESSAGE     "Ready"
 END
 
