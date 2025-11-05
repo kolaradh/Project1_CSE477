@@ -100,7 +100,7 @@ Demonstrates:
 - Echo and reflection behavior  
 - Enhanced depth and realism  
 
-### 🎼 Full Composition (≈1 minute)
+### 🎼 Full Composition-aurora.score (≈1 minute) 
 - Built on the **“Sa Re Ga Ma Pa Da Ni Sa”** melodic sequence  
 - Uses layered wavetables, panning, and envelope shaping  
 - Recognizable musical phrasing with rhythmic consistency  
